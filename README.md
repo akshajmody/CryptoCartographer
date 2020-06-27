@@ -5,7 +5,7 @@
 <img src="https://akshajmodyportfolio.s3-us-west-1.amazonaws.com/CryptoDemo2.png" width=800>
 
 ## Goals
-> The central goal of this project was to incorporate Chart.js with React in order to create a financial tool that allows users to view the historical price data of Bitcoin between any date range of their choosing. The secondary goal of this project was to display 3 popular cryptocurrencies' live prices in USD and Yen upon page load.
+> The central goal of this project was to incorporate Chart.js with React in order to create a financial tool that allows users to view the historical price data of Bitcoin between any date range of their choosing. The secondary goal of this project was to display 3 popular cryptocurrencies' live prices in USD and Yen upon page load. The next major goal that is currently under development will be to allow charting different cryptocurrencies on the same graph to compare performance over specified time.
 
 ## Getting Started
 > Install dependencies
