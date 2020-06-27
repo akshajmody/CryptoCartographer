@@ -1,0 +1,39 @@
+{
+  "name": "cryptocartographer",
+  "version": "1.0.0",
+  "description": "Full-stack finance app for viewing live Bitcoin, Ethereum, and Litecoin prices and for charting historical Bitcoin data between custom date range",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "build:dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshajmody/CryptoCartographer.git"
+  },
+  "author": "Akshaj Mody",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/akshajmody/CryptoCartographer/issues"
+  },
+  "homepage": "https://github.com/akshajmody/CryptoCartographer#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0"
+  }
+}

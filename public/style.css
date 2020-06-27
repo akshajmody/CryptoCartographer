@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+
+body {
+  margin-left: 100px;
+}
+
+@keyframes glowingText{
+  0% {color: black;}
+  10%{color: rgb(0, 36, 21);}
+  20%{color: rgb(0, 61, 36);}
+  30%{color: rgb(0, 92, 54);}
+  40%{color: rgb(0, 126, 73);
+  font-weight: 800;}
+  50%{color: rgb(0, 150, 87);
+  font-weight: 900;}
+  60%{color: rgb(0, 126, 73);
+  font-weight: 800;}
+  70%{color: rgb(0, 92, 54);}
+  80%{color: rgb(0, 61, 36);}
+  90%{color: rgb(0, 36, 21);}
+  100%{color: black;}
+}
+
+.appName {
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.appName2 {
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  font-size: 1.0rem;
+  font-style: italic;
+}
+
+.appName3 {
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 700px;
+  text-shadow: 0.5px 0.5px rgb(0, 192, 118);
+  animation: glowingText;
+  animation-duration: 0.7s;
+  animation-iteration-count: 3;
+}
+
+.appName4 {
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px rgb(0, 41, 25);
+}
+
+.form-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 400px;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+.form-inline label {
+  color: rgb(0, 27, 8);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font: 18px exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+}
+
+.form-inline button {
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(0, 189, 132);
+  border: 1px solid #ddd;
+  color: black;
+}
+
+.form-inline button:hover {
+  background-color: rgb(0, 158, 97);
+}
+
+.chartButton {
+  margin-top: 10px;
+  width: 200px;
+  padding: 10px 20px;
+  background-color: rgb(0, 189, 132);
+  border: 1px solid #ddd;
+  color: black;
+}
+
+.chartButton:hover {
+  background-color: rgb(0, 158, 97);
+}
+
+.chart-container {
+  width: 800px;
+  height: 450px;
+}
