@@ -1,10 +1,8 @@
 # Crypto Cartographer
 > Full-stack finance app for viewing live Bitcoin, Ethereum, and Litecoin prices and for charting historical Bitcoin data between custom date range
 
-<img src="https://akshajmodyportfolio.s3-us-west-1.amazonaws.com/CryptoDemo1.png" width=600>
-<br></br>
-<img src="https://akshajmodyportfolio.s3-us-west-1.amazonaws.com/CryptoDemo2.png" width=600>
-<br></br>
+<img src="https://akshajmodyportfolio.s3-us-west-1.amazonaws.com/CryptoDemo1.png" width=800>
+<img src="https://akshajmodyportfolio.s3-us-west-1.amazonaws.com/CryptoDemo2.png" width=800>
 
 ## Goals
 > The central goal of this project was to incorporate Chart.js with React in order to create a financial tool that allows users to view the historical price data of Bitcoin between any date range of their choosing. The secondary goal of this project was to display 3 popular cryptocurrencies' live prices in USD and Yen upon page load.
