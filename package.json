@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/akshajmody/CryptoCartographer#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chart.js": "^2.9.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
